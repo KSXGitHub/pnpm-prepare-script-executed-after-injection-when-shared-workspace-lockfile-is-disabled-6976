@@ -1,0 +1,14 @@
+{
+  "name": "@test/a",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@test/b": "workspace:^"
+  },
+  "dependenciesMeta": {
+    "@test/b": {
+      "injected": true
+    }
+  }
+}
